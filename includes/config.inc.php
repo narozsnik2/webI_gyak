@@ -4,9 +4,9 @@ $ablakcim = array(
 );
 
 $fejlec = array(
-    'kepforras' => 'logo.png',
-    'kepalt' => 'logo',
-	'cim' => 'Mini honlap',
+    'kepforras' => '',
+    'kepalt' => '',
+	'cim' => 'Nemzeti Parkok',
 	'motto' => ''
 );
 
@@ -25,13 +25,23 @@ $oldalak = array(
     'kilepes' => array('fajl' => 'kilepes', 'szoveg' => 'Kilépés', 'menun' => array(0,1)),
     'belep' => array('fajl' => 'belep', 'szoveg' => '', 'menun' => array(0,0)),
     'regisztral' => array('fajl' => 'regisztral', 'szoveg' => '', 'menun' => array(0,0)),
-
+'uzenetek' => array(
+    'fajl' => 'uzenetek',
+    'szoveg' => 'Üzenetek',
+    'menun' => array(0,1)
+),
     'kapcsolat_kuld' => array(
         'fajl' => 'kapcsolat_kuld',
         'szoveg' => '',
         'menun' => array(0,0)
     ),
+'tablazat' => array('fajl' => 'tablazat', 'szoveg' => 'CRUD', 'menun' => array(1,1)),
+'uj' => array('fajl' => 'uj', 'szoveg' => '', 'menun' => array(0,0)),
+'torol' => array('fajl' => 'torol', 'szoveg' => '', 'menun' => array(0,0)),
+'edit' => array('fajl' => 'edit', 'szoveg' => '', 'menun' => array(0,0)),
 );
+
+
 
 $hiba_oldal = array ('fajl' => '404', 'szoveg' => 'A keresett oldal nem található!');
 ?>
